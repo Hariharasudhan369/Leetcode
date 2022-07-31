@@ -22,6 +22,11 @@ class Solution {
                     list.get(i).add(s.charAt(index++));
                     
                 }
+                else{
+                    
+                    break;
+                    
+                }
             }
             
             for (int i = numRows - 2; i > 0 ; --i) {
@@ -31,6 +36,12 @@ class Solution {
                     list.get(i).add(s.charAt(index++));
                     
                 } 
+                
+                else{
+                    
+                    break;
+                    
+                }
                 
             }
         }
